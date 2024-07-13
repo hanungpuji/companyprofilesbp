@@ -41,7 +41,7 @@ function App() {
                 </div>
             </nav>
         </header>
-        
+        <div className="bg-white">
             <Outlet />
         
             <footer className="bg-white dark:bg-gray-900">
@@ -113,7 +113,7 @@ function App() {
                 </div>
                 </div>
             </footer> 
-        
+        </div>
     </>
   )
 }
