@@ -10,74 +10,33 @@ const CompanyProfile = () => {
                         <p className="mb-4">Tim profesional kami akan memberikan saran terbaik untuk kebutuhan cat anda. Jadi tidak perlu khawatir karena proyek anda akan selesai tepat waktu dengan hasil terbaik. Segera hubungi kami sekarang juga.</p>
                     </div>
                     <div className="grid grid-cols-2 gap-4 mt-8">
-                        <img className="w-full rounded-lg" src="https://flowbite.s3.amazonaws.com/blocks/marketing-ui/content/office-long-2.png" alt="office content 1" />
-                        <img className="mt-4 w-full lg:mt-10 rounded-lg" src="https://flowbite.s3.amazonaws.com/blocks/marketing-ui/content/office-long-1.png" alt="office content 2" />
+                        <img className="w-full rounded-lg" src="../src/assets/front1.jpg" alt="office content 1" />
+                        <img className="mt-4 w-full lg:mt-10 rounded-lg" src="../src/assets/front2.jpg" alt="office content 2" />
                     </div>
                 </div>
             </section>
             <div className="grid gap-4 p-10">
-                <p className="subpixel-antialiased font-medium text-gray-900">`&quot;`Temukan Kenapa Anda Harus Memilih Epoxy untuk Lantai Anda!`&quot;`</p>
+                <p className="subpixel-antialiased font-medium text-gray-900">&quot;Temukan Kenapa Anda Harus Memilih Epoxy untuk Lantai Anda!&quot;</p>
                 <div className="grid md:grid-cols-5 xl:grid-cols-5 sm:grid-cols-2 gap-5">
                     <div>
-                        <img className="h-auto max-w-full rounded-lg mb-2" src="./src/assets/ketahanan.jpeg" alt="" />
+                        <img className="h-auto max-w-full rounded-lg mb-2" src="../src/assets/ketahanan.jpeg" alt="" />
                         <span className="text-gray-900">Kekuatan dan Daya Tahan</span>
                     </div>
                     <div>
-                        <img className="h-auto max-w-full rounded-lg mb-2" src="https://flowbite.s3.amazonaws.com/docs/gallery/square/image-2.jpg" alt="" />
+                        <img className="h-auto max-w-full rounded-lg mb-2" src="../src/assets/cleaning.jpg" alt="" />
                         <span className="text-gray-900">Kemudahan Pembersihan</span>
                     </div>
                     <div>
-                        <img className="h-auto max-w-full rounded-lg mb-2" src="https://flowbite.s3.amazonaws.com/docs/gallery/square/image-3.jpg" alt="" />
+                        <img className="h-auto max-w-full rounded-lg mb-2" src="../src/assets/estetik.png" alt="" />
                         <span className="text-gray-900">Tampilan Estetika</span>
                     </div>
                     <div>
-                        <img className="h-auto max-w-full rounded-lg mb-2" src="https://flowbite.s3.amazonaws.com/docs/gallery/square/image-4.jpg" alt="" />
+                        <img className="h-auto max-w-full rounded-lg mb-2" src="../src/assets/ketahananlantai.jpeg" alt="" />
                         <span className="text-gray-900">Kekuatan Tahan Lama</span>
                     </div>
                     <div>
-                        <img className="h-auto max-w-full rounded-lg mb-2" src="https://flowbite.s3.amazonaws.com/docs/gallery/square/image-5.jpg" alt="" />
+                        <img className="h-auto max-w-full rounded-lg mb-2" src="../src/assets/linemarking.png" alt="" />
                         <span className="text-gray-900">Pengaplikasian yang Mudah</span>
-                    </div>
-                </div>
-            </div>
-
-            <div className="mx-auto max-w-screen-xl bg-white mb-10">
-                <div className="carousel w-full ">
-                    <div id="slide1" className="carousel-item relative w-full">
-                        <img
-                        src="https://img.daisyui.com/images/stock/photo-1625726411847-8cbb60cc71e6.jpg"
-                        className="w-full" />
-                        <div className="absolute left-5 right-5 top-1/2 flex -translate-y-1/2 transform justify-between">
-                        <a href="#slide4" className="btn btn-circle">❮</a>
-                        <a href="#slide2" className="btn btn-circle">❯</a>
-                        </div>
-                    </div>
-                    <div id="slide2" className="carousel-item relative w-full">
-                        <img
-                        src="https://img.daisyui.com/images/stock/photo-1609621838510-5ad474b7d25d.jpg"
-                        className="w-full" />
-                        <div className="absolute left-5 right-5 top-1/2 flex -translate-y-1/2 transform justify-between">
-                        <a href="#slide1" className="btn btn-circle">❮</a>
-                        <a href="#slide3" className="btn btn-circle">❯</a>
-                        </div>
-                    </div>
-                    <div id="slide3" className="carousel-item relative w-full">
-                        <img
-                        src="https://img.daisyui.com/images/stock/photo-1414694762283-acccc27bca85.jpg"
-                        className="w-full" />
-                        <div className="absolute left-5 right-5 top-1/2 flex -translate-y-1/2 transform justify-between">
-                        <a href="#slide2" className="btn btn-circle">❮</a>
-                        <a href="#slide4" className="btn btn-circle">❯</a>
-                        </div>
-                    </div>
-                    <div id="slide4" className="carousel-item relative w-full">
-                        <img
-                        src="https://img.daisyui.com/images/stock/photo-1665553365602-b2fb8e5d1707.jpg"
-                        className="w-full" />
-                        <div className="absolute left-5 right-5 top-1/2 flex -translate-y-1/2 transform justify-between">
-                        <a href="#slide3" className="btn btn-circle">❮</a>
-                        <a href="#slide1" className="btn btn-circle">❯</a>
-                        </div>
                     </div>
                 </div>
             </div>
@@ -209,6 +168,60 @@ const CompanyProfile = () => {
                         </div>
                     </li>
                 </ol>
+            </div>
+
+            <div className="mx-auto md:w-2/5 bg-white mb-10 p-2">
+                <div className="text-center">
+                    <p className="text-black mb-2 text-3xl">Portfolio</p>
+                </div>
+                <div className="carousel w-full ">
+                    <div id="slide1" className="carousel-item relative w-full">
+                        <img
+                        src="../src/assets/1.png"
+                        className="w-full" />
+                        <div className="absolute left-5 right-5 top-1/2 flex -translate-y-1/2 transform justify-between">
+                        <a href="#slide4" className="btn btn-circle">❮</a>
+                        <a href="#slide2" className="btn btn-circle">❯</a>
+                        </div>
+                    </div>
+                    <div id="slide2" className="carousel-item relative w-full">
+                        <img
+                        src="../src/assets/5.png"
+                        className="w-full" />
+                        <div className="absolute left-5 right-5 top-1/2 flex -translate-y-1/2 transform justify-between">
+                        <a href="#slide1" className="btn btn-circle">❮</a>
+                        <a href="#slide3" className="btn btn-circle">❯</a>
+                        </div>
+                    </div>
+                    <div id="slide3" className="carousel-item relative w-full">
+                        <img
+                        src="../src/assets/12.png"
+                        className="w-full" />
+                        <div className="absolute left-5 right-5 top-1/2 flex -translate-y-1/2 transform justify-between">
+                        <a href="#slide2" className="btn btn-circle">❮</a>
+                        <a href="#slide4" className="btn btn-circle">❯</a>
+                        </div>
+                    </div>
+                    <div id="slide4" className="carousel-item relative w-full">
+                        <img
+                        src="../src/assets/13.png"
+                        className="w-full" />
+                        <div className="absolute left-5 right-5 top-1/2 flex -translate-y-1/2 transform justify-between">
+                        <a href="#slide3" className="btn btn-circle">❮</a>
+                        <a href="#slide1" className="btn btn-circle">❯</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div className="mx-auto max-w-screen-xl bg-white dark:bg-gray-900 p-10 mb-4">
+                <div className="text-center">
+                    <p className="dark:text-white mb-2 text-3xl">HUBUNGI KAMI</p>
+                    <p className="dark:text-white mb-10">Apartment Springlake Summarecon Bekasi Tower Azola, Towe Azola, Jawa Barat 17142</p>
+                </div>
+                <div className="flex items-center justify-center">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d7932.627107435565!2d106.999689!3d-6.222322!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e698d004fefb6b9%3A0x4af415306a6eef12!2sSBP%20Jakarta!5e0!3m2!1sen!2sid!4v1720876229054!5m2!1sen!2sid" width="600" height="450" style={{ border: 0 }} allowfullscreen="" loading="lazy" referrerPolicy="no-referrer-when-downgrade" />
+                </div>
             </div>
         </body>
     )
