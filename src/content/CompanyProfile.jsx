@@ -10,8 +10,8 @@ const CompanyProfile = () => {
                         <p className="mb-4">Tim profesional kami akan memberikan saran terbaik untuk kebutuhan cat anda. Jadi tidak perlu khawatir karena proyek anda akan selesai tepat waktu dengan hasil terbaik. Segera hubungi kami sekarang juga.</p>
                     </div>
                     <div className="grid grid-cols-2 gap-4 mt-8">
-                        <img className="w-full rounded-lg" src="../src/assets/front1.jpg" alt="office content 1" />
-                        <img className="mt-4 w-full lg:mt-10 rounded-lg" src="../src/assets/front2.jpg" alt="office content 2" />
+                        <img className="w-full rounded-lg" src="./assets/front1.jpg" alt="office content 1" />
+                        <img className="mt-4 w-full lg:mt-10 rounded-lg" src="./assets/front2.jpg" alt="office content 2" />
                     </div>
                 </div>
             </section>
@@ -19,23 +19,23 @@ const CompanyProfile = () => {
                 <p className="subpixel-antialiased font-medium text-gray-900">&quot;Temukan Kenapa Anda Harus Memilih Epoxy untuk Lantai Anda!&quot;</p>
                 <div className="grid md:grid-cols-5 xl:grid-cols-5 sm:grid-cols-2 gap-5">
                     <div>
-                        <img className="h-auto max-w-full rounded-lg mb-2" src="../src/assets/ketahanan.jpeg" alt="" />
+                        <img className="h-auto max-w-full rounded-lg mb-2" src="./assets/ketahanan.jpeg" alt="" />
                         <span className="text-gray-900">Kekuatan dan Daya Tahan</span>
                     </div>
                     <div>
-                        <img className="h-auto max-w-full rounded-lg mb-2" src="../src/assets/cleaning.jpg" alt="" />
+                        <img className="h-auto max-w-full rounded-lg mb-2" src="./assets/cleaning.jpg" alt="" />
                         <span className="text-gray-900">Kemudahan Pembersihan</span>
                     </div>
                     <div>
-                        <img className="h-auto max-w-full rounded-lg mb-2" src="../src/assets/estetik.png" alt="" />
+                        <img className="h-auto max-w-full rounded-lg mb-2" src="./assets/estetik.png" alt="" />
                         <span className="text-gray-900">Tampilan Estetika</span>
                     </div>
                     <div>
-                        <img className="h-auto max-w-full rounded-lg mb-2" src="../src/assets/ketahananlantai.jpeg" alt="" />
+                        <img className="h-auto max-w-full rounded-lg mb-2" src="./assets/ketahananlantai.jpeg" alt="" />
                         <span className="text-gray-900">Kekuatan Tahan Lama</span>
                     </div>
                     <div>
-                        <img className="h-auto max-w-full rounded-lg mb-2" src="../src/assets/linemarking.png" alt="" />
+                        <img className="h-auto max-w-full rounded-lg mb-2" src="./assets/linemarking.png" alt="" />
                         <span className="text-gray-900">Pengaplikasian yang Mudah</span>
                     </div>
                 </div>
@@ -177,7 +177,7 @@ const CompanyProfile = () => {
                 <div className="carousel w-full ">
                     <div id="slide1" className="carousel-item relative w-full">
                         <img
-                        src="../src/assets/1.png"
+                        src="./assets/1.png"
                         className="w-full" />
                         <div className="absolute left-5 right-5 top-1/2 flex -translate-y-1/2 transform justify-between">
                         <a href="#slide4" className="btn btn-circle">❮</a>
@@ -186,7 +186,7 @@ const CompanyProfile = () => {
                     </div>
                     <div id="slide2" className="carousel-item relative w-full">
                         <img
-                        src="../src/assets/5.png"
+                        src="./assets/5.png"
                         className="w-full" />
                         <div className="absolute left-5 right-5 top-1/2 flex -translate-y-1/2 transform justify-between">
                         <a href="#slide1" className="btn btn-circle">❮</a>
@@ -195,7 +195,7 @@ const CompanyProfile = () => {
                     </div>
                     <div id="slide3" className="carousel-item relative w-full">
                         <img
-                        src="../src/assets/12.png"
+                        src="./assets/12.png"
                         className="w-full" />
                         <div className="absolute left-5 right-5 top-1/2 flex -translate-y-1/2 transform justify-between">
                         <a href="#slide2" className="btn btn-circle">❮</a>
@@ -204,7 +204,7 @@ const CompanyProfile = () => {
                     </div>
                     <div id="slide4" className="carousel-item relative w-full">
                         <img
-                        src="../src/assets/13.png"
+                        src="./assets/13.png"
                         className="w-full" />
                         <div className="absolute left-5 right-5 top-1/2 flex -translate-y-1/2 transform justify-between">
                         <a href="#slide3" className="btn btn-circle">❮</a>
