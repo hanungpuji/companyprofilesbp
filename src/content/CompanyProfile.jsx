@@ -1,6 +1,6 @@
 const CompanyProfile = () => {
     return (
-        <body className='bg-white border-gray-200'>
+        <div className='bg-white border-gray-200'>
             <section className="bg-white dark:bg-gray-900">
                 <div className="gap-16 items-center py-8 px-4 mx-auto max-w-screen-xl lg:grid lg:grid-cols-2 lg:py-16 lg:px-6" >
                     <div className="font-light text-gray-500 sm:text-lg dark:text-gray-400">
@@ -220,10 +220,10 @@ const CompanyProfile = () => {
                     <p className="dark:text-white mb-10">Apartment Springlake Summarecon Bekasi Tower Azola, Towe Azola, Jawa Barat 17142</p>
                 </div>
                 <div className="flex items-center justify-center">
-                    <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d7932.627107435565!2d106.999689!3d-6.222322!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e698d004fefb6b9%3A0x4af415306a6eef12!2sSBP%20Jakarta!5e0!3m2!1sen!2sid!4v1720876229054!5m2!1sen!2sid" width="600" height="450" style={{ border: 0 }} allowfullscreen="" loading="lazy" referrerPolicy="no-referrer-when-downgrade" />
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d7932.627107435565!2d106.999689!3d-6.222322!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e698d004fefb6b9%3A0x4af415306a6eef12!2sSBP%20Jakarta!5e0!3m2!1sen!2sid!4v1720876229054!5m2!1sen!2sid" width="600" height="450" style={{ border: 0 }} allowFullScreen="" loading="lazy" referrerPolicy="no-referrer-when-downgrade" />
                 </div>
             </div>
-        </body>
+        </div>
     )
 }
 
