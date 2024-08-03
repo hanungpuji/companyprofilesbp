@@ -1,10 +1,45 @@
+import {useRef,useMemo, cloneElement} from "react";
+
 const CompanyProfile = () => {
+    const elementRef = useRef();
+
     const whatsappbutton = () => {
         let newTab = document.createElement('a');
         newTab.href = "https://web.whatsapp.com/send?phone=+6281339997277&text=Saya ingin menanyakan tentang";
         newTab.target = "_blank";
         newTab.click();
     }
+
+    const divElement = useMemo(() => {
+        return (
+            <ul className="logo flex items-center justify-center md:justify-start [&_li]:mx-8 [&_img]:max-w-none animate-infinite-scroll">
+                <li>
+                    <img className="object-contain h-30 w-60" src="./assets/bogasari.png" alt="Bogasari" />
+                </li>
+                <li>
+                    <img className="object-contain h-30 w-60" src="./assets/ajinomotologo.png" alt="Ajinomoto" />
+                </li>
+                <li>
+                    <img className="object-contain h-30 w-60" src="./assets/indofood.png" alt="Indofood" />
+                </li>
+                <li>
+                    <img className="object-contain h-30 w-60" src="./assets/cocacola.png" alt="CocaCola" />
+                </li>
+                <li>
+                    <img className="object-contain h-30 w-60" src="./assets/indospringtbk.png" alt="Indospring" />
+                </li>
+            </ul> 
+        );
+      }, [elementRef]);
+
+      const clonedElement = useMemo(() => {
+        return cloneElement(divElement);
+      }, [divElement]);
+
+    // const cloneHtml = () => {
+    //     const htmlElement = React.cloneElement(".logo-container");
+    //     return React.createElement(htmlElement)  
+    // };
     return (
         <div className='bg-white border-gray-200'>
             <section className="bg-white dark:bg-gray-900">
@@ -242,23 +277,8 @@ const CompanyProfile = () => {
                     <p className="dark:text-white mb-2 text-3xl">CLIENT KAMI</p>
                 </div>
                 <div className="logo-container w-full inline-flex flex-nowrap overflow-hidden [mask-image:_linear-gradient(to_right,transparent_0,_black_128px,_black_calc(100%-128px),transparent_100%)]">
-                    <ul className="logo flex items-center justify-center md:justify-start [&_li]:mx-8 [&_img]:max-w-none animate-infinite-scroll">
-                        <li>
-                            <img className="object-contain h-30 w-60" src="./assets/bogasari.png" alt="Bogasari" />
-                        </li>
-                        <li>
-                            <img className="object-contain h-30 w-60" src="./assets/ajinomotologo.png" alt="Ajinomoto" />
-                        </li>
-                        <li>
-                            <img className="object-contain h-30 w-60" src="./assets/indofood.png" alt="Indofood" />
-                        </li>
-                        <li>
-                            <img className="object-contain h-30 w-60" src="./assets/cocacola.png" alt="CocaCola" />
-                        </li>
-                        <li>
-                            <img className="object-contain h-30 w-60" src="./assets/indospringtbk.png" alt="Indospring" />
-                        </li>
-                    </ul>               
+                    {divElement}  
+                    {clonedElement}  
                 </div>
             </div>
         </div>
