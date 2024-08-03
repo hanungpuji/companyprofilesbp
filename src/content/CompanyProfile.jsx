@@ -247,7 +247,7 @@ const CompanyProfile = () => {
                             <img className="object-contain h-30 w-60" src="./assets/bogasari.png" alt="Bogasari" />
                         </li>
                         <li>
-                            <img className="object-contain h-30 w-60" src="./assets/ajinomoto.png" alt="Ajinomoto" />
+                            <img className="object-contain h-30 w-60" src="./assets/ajinomotologo.png" alt="Ajinomoto" />
                         </li>
                         <li>
                             <img className="object-contain h-30 w-60" src="./assets/indofood.png" alt="Indofood" />
